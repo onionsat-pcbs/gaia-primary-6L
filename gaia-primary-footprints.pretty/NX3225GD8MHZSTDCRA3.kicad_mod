@@ -1,0 +1,161 @@
+(footprint "NX3225GD8MHZSTDCRA3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NX3225GD-8MHZ-STD-CRA-3-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at -0.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "46b295eb-9602-40ad-a4df-1a89b0f6bc93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NX3225GD8MHZSTDCRA3"
+		(at -0.5 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e5c7afb9-8488-418d-9556-ceabf0a84427")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc745953-59ef-406c-95b5-97bf92f51a7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e817b02b-cc58-4728-9845-05a4164f137c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -2.35)
+		(end 2.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5254bcda-449b-461e-888c-31d1deb39711")
+	)
+	(fp_line
+		(start -2.7 2.35)
+		(end -2.7 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0996ad8a-b3f7-4d7c-a728-d16235b4dec7")
+	)
+	(fp_line
+		(start 2.7 -2.35)
+		(end 2.7 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "547445db-9c5a-4010-8d80-c3ec13cd416e")
+	)
+	(fp_line
+		(start 2.7 2.35)
+		(end -2.7 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ee78e275-6542-4258-88fd-f107ecbd18b8")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cf2ad4b-2e28-415e-804b-debf9528d805")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2324e25-760f-4175-aa98-8dcb7647ed0b")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end -1.6 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a65ea1b-1a32-49de-8416-b8122a449c52")
+	)
+	(fp_line
+		(start 1.6 1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26221dad-9def-4b30-bb5a-c7ce6ec12743")
+	)
+	(pad "1" smd rect
+		(at -0.95 0)
+		(size 1.5 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d68a978b-210e-4dcd-94c3-3fbf6f8babb9")
+	)
+	(pad "2" smd rect
+		(at 0.95 0)
+		(size 1.5 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd7969df-960d-430d-ba16-b12796521bdb")
+	)
+	(embedded_fonts no)
+	(model "NX3225GD-8MHZ-STD-CRA-3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "gaia-primary-footprints")(type "KiCad")(uri "${KIPRJMOD}/gaia-primary-footprints.pretty")(options "")(descr ""))
+)
