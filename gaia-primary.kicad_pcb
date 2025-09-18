@@ -19004,16 +19004,17 @@
 	)
 	(gr_poly
 		(pts
-			(xy 189.180481 66.931062) (xy 190.156793 68.59) (xy 189.466231 68.59) (xy 189.466231 70.264812) (xy 188.910606 70.264812)
-			(xy 188.910606 68.59) (xy 188.220043 68.59)
+			(xy 170.6 72.4) (xy 171.329887 72.708337) (xy 170.6 73.016674) (xy 170.291663 73.746562) (xy 169.983325 73.016674)
+			(xy 169.253438 72.708337) (xy 169.983325 72.4) (xy 170.291663 71.670112)
 		)
 		(stroke
-			(width 0)
+			(width 0.017999)
 			(type solid)
+			(color 0 0 2 1)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "0d0d8099-fea4-4489-8b91-3eccab06b4e6")
+		(uuid "038ff78d-d753-476f-999a-6e016942f4b6")
 	)
 	(gr_poly
 		(pts
@@ -19051,6 +19052,20 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "4fdfc83a-a8c4-49b0-b1df-e0c0adb298ad")
+	)
+	(gr_poly
+		(pts
+			(xy 170.6 73) (xy 171.329887 72.691663) (xy 170.6 72.383326) (xy 170.291663 71.653438) (xy 169.983325 72.383326)
+			(xy 169.253438 72.691663) (xy 169.983325 73) (xy 170.291663 73.729888)
+		)
+		(stroke
+			(width 0.017999)
+			(type solid)
+			(color 0 0 2 1)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "54acbaf3-46d5-42e8-81e1-9d1b1f8eff37")
 	)
 	(gr_poly
 		(pts
@@ -19335,19 +19350,6 @@
 		(fill yes)
 		(layer "B.SilkS")
 		(uuid "efe89ab4-fb4d-44c0-9404-73673c2ac9c8")
-	)
-	(gr_poly
-		(pts
-			(xy 189.196355 66.931062) (xy 188.220043 68.59) (xy 188.910605 68.59) (xy 188.910605 70.264812) (xy 189.46623 70.264812)
-			(xy 189.46623 68.59) (xy 190.156793 68.59)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "B.SilkS")
-		(uuid "f2d32b10-3288-46af-ae44-cc76b7697f8c")
 	)
 	(gr_arc
 		(start 214.196938 106.196938)
@@ -19636,7 +19638,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "revision 1.1\nDesigned by Tamás Pécsi"
+	(gr_text "revision 1.1"
 		(at 189.196938 114.752713 0)
 		(layer "B.SilkS")
 		(uuid "ec7ac88e-4eb3-45e4-823c-1cc33fe5844d")
@@ -31436,8 +31438,8 @@
 		)
 	)
 	(group ""
-		(uuid "d85adba2-a278-4c8f-b1a8-9eb232442cea")
-		(members "0d0d8099-fea4-4489-8b91-3eccab06b4e6")
+		(uuid "1ebf245b-10b9-4761-86fa-a493e8f304df")
+		(members "038ff78d-d753-476f-999a-6e016942f4b6")
 	)
 	(group ""
 		(uuid "fd1764e4-f650-4370-9060-59b1dcc1f2c3")
@@ -31463,8 +31465,8 @@
 		(members "a80b9921-01af-40e2-a897-f681da3c8985" "ca1dd286-747c-436b-b97f-f1671d6fab75")
 	)
 	(group ""
-		(uuid "49e5260d-037f-40ba-850b-15974ec6ee86")
-		(members "f2d32b10-3288-46af-ae44-cc76b7697f8c")
+		(uuid "412456ab-6958-4623-8592-8da426706555")
+		(members "54acbaf3-46d5-42e8-81e1-9d1b1f8eff37")
 	)
 	(group ""
 		(uuid "99229a7d-3982-41d3-93ad-a97457e36f69")
