@@ -1625,7 +1625,19 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24_3x3mm_P0.4mm_EP1.7x1.54mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2230,7 +2242,7 @@
 			(uuid "a6bd3068-6c0a-4af9-8c22-35dfb77da9b5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering.step"
+		(model "${KIPRJMOD}/3dmodels/BME680.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2238,7 +2250,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5345,7 +5357,7 @@
 			(uuid "5d532667-0749-4da4-94f2-7a9d2540c585")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering.step"
+		(model "${KIPRJMOD}/3dmodels/BME680.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5353,7 +5365,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -10430,7 +10442,7 @@
 		(descr "24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm; EP 1.7x1.54mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)")
 		(tags "QFN 0.4")
 		(property "Reference" "U12"
-			(at 0 -3.25 270)
+			(at 0 -3.25 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "588fdefe-f567-49f9-a0cc-8f0b08c292fb")
@@ -10442,7 +10454,7 @@
 			)
 		)
 		(property "Value" "ICM-20948"
-			(at 0 3.25 270)
+			(at 0 3.25 90)
 			(layer "F.Fab")
 			(uuid "1f812970-d2e2-4cec-b62b-2838d8083ea8")
 			(effects
@@ -10654,7 +10666,7 @@
 			(uuid "e57f1ece-1b8b-4100-b170-348358ded5b6")
 		)
 		(fp_text user "Component"
-			(at 0 0.55 270)
+			(at 0 0.55 90)
 			(layer "Cmts.User")
 			(uuid "3eb29360-c9ad-49fe-a00b-0d6d6dc3717c")
 			(effects
@@ -10665,7 +10677,7 @@
 			)
 		)
 		(fp_text user "Directly Below"
-			(at 0 0.25 270)
+			(at 0 0.25 90)
 			(layer "Cmts.User")
 			(uuid "7d921997-a30f-4948-8541-da3ac6fa2f74")
 			(effects
@@ -10676,7 +10688,7 @@
 			)
 		)
 		(fp_text user "No Copper"
-			(at 0 -0.1 270)
+			(at 0 -0.1 90)
 			(layer "Cmts.User")
 			(uuid "b85d76f9-aa43-472a-b594-a0ff32d239ac")
 			(effects
@@ -10687,7 +10699,7 @@
 			)
 		)
 		(fp_text user "KEEPOUT"
-			(at 0 -0.5 270)
+			(at 0 -0.5 90)
 			(layer "Cmts.User")
 			(uuid "f03c3b77-58af-4026-bbad-881cc232cb61")
 			(effects
@@ -10698,7 +10710,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "f30d10f2-2572-4f4a-9218-5a63df9b3236")
 			(effects
@@ -10981,7 +10993,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24_3x3mm_P0.4mm_EP1.7x1.54mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14877,15 +14889,15 @@
 			(uuid "f3f5eb8e-b288-420b-a8de-488f5d194a10")
 		)
 		(embedded_fonts no)
-		(model "ADXL375BCCZ.stp"
+		(model "${KIPRJMOD}/3dmodels/ADXL375BCCZ-RL7.STEP"
 			(offset
-				(xyz 0 0 0.2)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
